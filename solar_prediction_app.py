@@ -28,7 +28,7 @@ def feature_engineering(data):
 # Generation Prediction
 def generation_prediction(data):
     st.subheader("Generation Prediction")
-    st.write('give a data')
+    st.write('Give Energy Generation Data')
 
     uploaded_file = st.file_uploader('', type=["csv"])
 
@@ -86,7 +86,7 @@ def generation_prediction(data):
 # Consumption Prediction
 def consumption_prediction(data):
     st.subheader("Consumption Prediction")
-    st.write('give a data')
+    st.write('Give Energy Consumption Data')
     uploaded_file = st.file_uploader('', type=["csv"])
 
     if uploaded_file is not None:
@@ -148,7 +148,7 @@ def consumption_prediction(data):
 
 # Main Streamlit app
 def main():
-    st.title("Solar Power Prediction App")
+    st.title("Renewable Energy Prediction App")
 
     # Sidebar menu
     selected_option = st.sidebar.selectbox("Select Prediction Type", ["Generation", "Consumption"])
