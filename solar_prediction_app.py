@@ -28,9 +28,9 @@ def feature_engineering(data):
 # Generation Prediction
 def generation_prediction(data):
     st.subheader("Generation Prediction")
-    st.write('C:/Users/shaik/Downloads/Plant_1_Generation_Data.csv/Plant_1_Generation_Data.csv')
+    st.write('give a data')
 
-    uploaded_file = st.file_uploader('C:/Users/shaik/Downloads/Plant_1_Generation_Data.csv/Plant_1_Generation_Data.csv', type=["csv"])
+    uploaded_file = st.file_uploader('', type=["csv"])
 
     if uploaded_file is not None:
         # Load and preprocess data
@@ -86,8 +86,8 @@ def generation_prediction(data):
 # Consumption Prediction
 def consumption_prediction(data):
     st.subheader("Consumption Prediction")
-    st.write('C:/Users/shaik/Downloads/dailyEnergyWithFeatures.csv')
-    uploaded_file = st.file_uploader('C:/Users/shaik/Downloads/dailyEnergyWithFeatures.csv', type=["csv"])
+    st.write('give a data')
+    uploaded_file = st.file_uploader('', type=["csv"])
 
     if uploaded_file is not None:
         # Load and preprocess data
